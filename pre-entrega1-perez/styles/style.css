@@ -422,8 +422,10 @@ footer a:visited {
 	}
 
 }
+
 /* mobile */
 @media only screen and (max-width:576px) {
+	
 /* General */
 	nav {
 	width: 100%;
