@@ -1,0 +1,34 @@
+header {
+  background-color: #000000;
+  h1 {
+    height: 90px;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 3px 0;
+    font-family: 'Aldrich', sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 72px;
+    font-style: italic;
+    margin: 0;
+  }
+}     
+section {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em; color: grey;
+    background-color: grey;
+    margin: 0;
+      li {
+        a {
+          font-family: 'Aldrich', sans-serif;
+          text-decoration: none;
+          list-style: none;
+          color: #ffffff;
+        }
+      }
+  } 
+}

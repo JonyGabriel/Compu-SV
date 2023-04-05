@@ -1,0 +1,13 @@
+
+.container-ix {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  .card-img-ix {
+    width: 350px;
+    height: 350px;
+    background-color: grey;
+    border-style: solid ; 
+    color: rgb(0, 225, 255);
+  }  
+}
