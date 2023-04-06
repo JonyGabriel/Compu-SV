@@ -15,6 +15,57 @@
     background-color: $bgcolor;
     height: 100vh;
   }
+  header {
+    background-color: $bgcolor;
+    h1 {
+      height: 90px;
+      width: 100%;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      text-shadow: 3px 3px 0;
+      font-family: 'Aldrich', sans-serif;
+      color: aliceblue;
+      font-weight: bold;
+      font-size: 72px;
+      font-style: italic;
+      margin: 0;
+    }
+  }     
+  section {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 1em; 
+      color: grey;
+      background-color: grey;
+      margin: 0;
+        li {
+          a {
+            font-family: 'Aldrich', sans-serif;
+            text-decoration: none;
+            list-style: none;
+            color: $white;
+          }
+        }
+    } 
+  }
+  footer {
+    margin-top: 10%;
+    width: 100%;
+    background-color: $cian;
+    padding: 20px 0;
+    ul {
+      display: flex;
+      justify-content: space-around; 
+      a {
+        font-family: 'Aldrich', sans-serif;
+        color: $bgcolor;
+        text-decoration: none;
+        list-style: none;
+      }
+    }
+  }   
   /* Graficas */
   
   /* Contacto */
@@ -27,7 +78,7 @@
     padding: 20px 0;
   }
   footer a:visited {
-    color: black;
+    color: $bgcolor;
     text-decoration: none;
     list-style: none;
   }
@@ -112,26 +163,28 @@ nav {
 }
 .pc-container-btn {
   margin-left: 10%;
-}
+} 
+/* graficas  */
 .container-main-graficas {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
-  margin: 0;
 }
 .container-h4 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  margin-top: -10%;
   .h4-card {
+    margin: 3%;
     a {
       text-decoration: none;
       width: 100%;
       height: 100%;
       .target-h4 {
-        width: auto;
-        height: auto;
+        width: 90px;
+        height: 40px;
         padding: 14px 8px 4px 8px;
         background: rgb(12, 158, 158);
         color: #ffffff;
@@ -145,10 +198,6 @@ nav {
         font-style: italic;
         text-align: center;
         margin: 2px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 8px;
       }
     }
   }
@@ -157,7 +206,7 @@ nav {
     display: grid;
     grid-template-columns: 220px 220px;
     gap: 50px;
-    padding-left: 48px;
+    margin-left: 18%;
     & &-img {
       display: flex;
       flex-wrap: wrap;
@@ -188,7 +237,7 @@ nav {
   }
   .pv-container-btn:hover {
     background-color: rgb(255, 255, 255);
-    color: #ec8787;
+    color: $btncolor;
   } 
   .vid-container-pv {
     display: flex;
@@ -247,9 +296,8 @@ nav {
   display: grid;
   grid-template-columns: 220px 220px;
   gap: 30px;
-  padding-left: 50px;
   margin: 0;
-  margin-left: 2%;
+  margin: 0% 0% 20% 20%;
 }
 .container-img-hw {
   display: flex;
@@ -443,7 +491,7 @@ nav {
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-top: 8px;
+        
         }
       }
     }
@@ -452,7 +500,7 @@ nav {
       display: grid;
       grid-template-columns: 220px 220px;
       gap: 50px;
-      padding-left: 48px;
+      margin-right: 15%;
       & &-img {
         display: flex;
         flex-wrap: wrap;

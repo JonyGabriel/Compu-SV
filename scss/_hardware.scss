@@ -1,7 +1,8 @@
+@import 'vars';
 footer {
   margin-top: 10%;
   width: 100%;
-  background-color: #00ffff;
+  background-color: $cian;
   padding: 20px 0;
   ul {
     display: flex;
@@ -30,7 +31,7 @@ footer {
       width: 468px;
       height: 58px;
       padding: 14px 8px 4px 8px;
-      background: rgb(12, 158, 158);
+      background: $textcolor;
       color: #ffffff;
       border-color: #fdfdfd;
       border-width: 2px;
@@ -63,11 +64,13 @@ footer {
   display: grid;
   justify-content: center;
   .img-card-hw {
-    border: solid rgb(15, 158, 158);
+    border: 10px solid $textcolor;
     display: flex;
     justify-content: center;
     width: 250px;
     height: 250px;
+    border-image: linear-gradient(to top, rgb(15, 32, 32) 50%,rgb(92, 138, 135) 50% );
+    border-image-slice: 1;
   }
 }
 .hw-container-btn {
@@ -85,7 +88,7 @@ footer {
 }
 .hw-container-btn:hover {
   background-color: rgb(255, 255, 255);
-  color: #f16f6f;
+  color: $btncolor;
 }
 
 .vid-container-hw {
