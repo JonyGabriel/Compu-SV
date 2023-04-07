@@ -203,7 +203,7 @@ footer ul a {
   justify-content: center;
 }
 .container-pv .container-pv-img .img-card-pv {
-  width: 250px;
+  width: 240px;
   height: 250px;
   border: 10px solid;
   border-image: linear-gradient(to top, rgb(15, 32, 32) 50%, rgb(92, 138, 135) 50%);
@@ -241,7 +241,7 @@ footer ul a {
 
 .card-videos-pv {
   display: flex;
-  width: 680px;
+  width: 580px;
   height: 310px;
 }
 
@@ -352,7 +352,7 @@ footer ul a {
 
 .card-videos-hw {
   display: flex;
-  width: 680px;
+  width: 580px;
   height: 310px;
 }
 
@@ -433,8 +433,14 @@ footer ul a {
 
 /*general*/
 body {
-  background-color: #000000;
+  background: linear-gradient(to right, #000000, #254752);
+  background-size: 200% 200%;
+  background-position: left;
+  transition: background-position 0.5s;
   height: 100vh;
+}
+body:hover {
+  background-position: right;
 }
 
 header {
