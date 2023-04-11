@@ -572,16 +572,14 @@ footer a:visited {
     height: 100%;
   }
   .container-pc {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 220px 220px;
+    gap: 10%;
     width: 100%;
     height: 100%;
     margin: 0;
-    padding-left: 4%;
+    padding-left: 18%;
     margin-top: 2rem;
-    gap: 50px;
   }
   .container-pc .card-container {
     width: 100%;
@@ -592,6 +590,9 @@ footer a:visited {
   }
   .pc-container-btn {
     margin-left: 10%;
+  }
+  .pc-footer {
+    margin-top: 20%;
   }
   /* graficas  */
   .container-main-graficas {
