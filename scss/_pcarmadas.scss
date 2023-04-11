@@ -60,6 +60,8 @@ footer {
   width: 100%;
   height: 100%;
   margin: 5rem;
+  .card-container {
+    width: 100%;
   .img-card-pc {
     width: 250px;
     height: 250px;
@@ -67,6 +69,7 @@ footer {
     border-image: linear-gradient(to top, rgb(15, 32, 32) 50%,rgb(92, 138, 135) 50% );
     border-image-slice: 1;
   }
+}
 }
 .pc-container-btn {
   display: flex;
