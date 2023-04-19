@@ -26,6 +26,7 @@ footer {
   justify-content: space-around;
   margin: 1rem;
   .h4-card{
+    
     a {
       text-decoration: none;
       .target-h4 {
@@ -48,6 +49,7 @@ footer {
         justify-content: center;
         align-items: center;
         margin-top: 8px;
+        box-shadow: 5px 0 20px rgb(148, 238, 238);
       }
     }
   }
@@ -66,8 +68,16 @@ footer {
       width: 240px;
       height: 250px;
       border: 10px solid;
-      border-image: linear-gradient(to top, rgb(15, 32, 32) 50%,rgb(92, 138, 135) 50% );
+      border-image: linear-gradient(to top, rgb(15, 32, 32) 30%,rgb(92, 138, 135) 50% );
       border-image-slice: 1;
+      border-radius: 5px;
+      box-shadow: 5px 0 20px rgb(146, 248, 248);
+      transition: all 0.4s ease;
+    }
+    .img-card-pv:hover {
+      transform: translateY(-5px);
+      box-shadow: 5px 0 20px rgb(255, 255, 255);
+        
     }
   }
 }
@@ -100,4 +110,7 @@ footer {
   display: flex;
   width: 580px;
   height: 310px;
+}
+.card-videos-pv:hover{
+  box-shadow: 0 0 30px rgb(0, 0, 0);
 }

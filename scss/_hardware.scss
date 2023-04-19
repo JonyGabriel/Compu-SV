@@ -47,6 +47,7 @@ footer {
       justify-content: center;
       align-items: center;
       margin-top: 8px;
+      box-shadow: 5px 0 20px rgb(148, 238, 238);
     }
   }
 }
@@ -69,8 +70,16 @@ footer {
     justify-content: center;
     width: 250px;
     height: 250px;
-    border-image: linear-gradient(to top, rgb(15, 32, 32) 50%,rgb(92, 138, 135) 50% );
+    border-image: linear-gradient(to top, rgb(15, 32, 32) 30%,rgb(92, 138, 135) 50% );
     border-image-slice: 1;
+    border-radius: 5px;
+    box-shadow: 5px 0 20px rgb(146, 248, 248);
+    transition: all 0.3s ease;
+  }
+  .img-card-hw:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 0 20px rgb(255, 255, 255);
+      
   }
 }
 .hw-container-btn {
@@ -103,4 +112,7 @@ footer {
   display: flex;
   width: 580px;
   height: 310px;
+}
+.card-videos-hw:hover{
+  box-shadow: 0 0 30px rgb(0, 0, 0);
 }

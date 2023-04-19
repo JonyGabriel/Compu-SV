@@ -79,6 +79,8 @@ footer ul a {
   border-width: 4px;
   border-style: inset;
   border-radius: 4px 4px 4px 4px;
+  border-radius: 5px;
+  box-shadow: 5px 0 20px rgb(148, 238, 238);
 }
 .container-h2 .h2-card a {
   list-style: none;
@@ -115,8 +117,15 @@ footer ul a {
   width: 250px;
   height: 250px;
   border: 10px solid;
-  border-image: linear-gradient(to top, rgb(15, 32, 32) 50%, rgb(92, 138, 135) 50%);
+  border-image: linear-gradient(to top, rgb(30, 63, 63) 20%, rgb(92, 138, 135) 50%);
   border-image-slice: 1;
+  border-radius: 5px;
+  box-shadow: 5px 0 20px rgb(146, 248, 248);
+  transition: all 0.3s ease;
+}
+.container-pc .card-container .img-card-pc:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 0 20px rgb(255, 255, 255);
 }
 
 .pc-container-btn {
@@ -191,6 +200,7 @@ footer ul a {
   justify-content: center;
   align-items: center;
   margin-top: 8px;
+  box-shadow: 5px 0 20px rgb(148, 238, 238);
 }
 
 .container-pv {
@@ -209,8 +219,15 @@ footer ul a {
   width: 240px;
   height: 250px;
   border: 10px solid;
-  border-image: linear-gradient(to top, rgb(15, 32, 32) 50%, rgb(92, 138, 135) 50%);
+  border-image: linear-gradient(to top, rgb(15, 32, 32) 30%, rgb(92, 138, 135) 50%);
   border-image-slice: 1;
+  border-radius: 5px;
+  box-shadow: 5px 0 20px rgb(146, 248, 248);
+  transition: all 0.4s ease;
+}
+.container-pv .container-pv-img .img-card-pv:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 0 20px rgb(255, 255, 255);
 }
 
 .pv-container-btn {
@@ -245,6 +262,10 @@ footer ul a {
   display: flex;
   width: 580px;
   height: 310px;
+}
+
+.card-videos-pv:hover {
+  box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
 footer {
@@ -298,6 +319,7 @@ footer ul a {
   justify-content: center;
   align-items: center;
   margin-top: 8px;
+  box-shadow: 5px 0 20px rgb(148, 238, 238);
 }
 
 .container-hw {
@@ -320,8 +342,15 @@ footer ul a {
   justify-content: center;
   width: 250px;
   height: 250px;
-  border-image: linear-gradient(to top, rgb(15, 32, 32) 50%, rgb(92, 138, 135) 50%);
+  border-image: linear-gradient(to top, rgb(15, 32, 32) 30%, rgb(92, 138, 135) 50%);
   border-image-slice: 1;
+  border-radius: 5px;
+  box-shadow: 5px 0 20px rgb(146, 248, 248);
+  transition: all 0.3s ease;
+}
+.container-img-hw .img-card-hw:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 0 20px rgb(255, 255, 255);
 }
 
 .hw-container-btn {
@@ -356,6 +385,10 @@ footer ul a {
   display: flex;
   width: 580px;
   height: 310px;
+}
+
+.card-videos-hw:hover {
+  box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
 footer {
