@@ -531,6 +531,10 @@ footer ul a {
 
 /* Graficas */
 /* Contacto */
+.form-contacto {
+  color: white;
+}
+
 /* footer */
 footer {
   margin-top: 10%;
