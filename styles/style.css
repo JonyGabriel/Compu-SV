@@ -1165,7 +1165,7 @@ footer a:visited {
     grid-template-columns: 125px 147px;
     width: 100%;
     gap: 33px;
-    padding-left: 45px;
+    margin-left: 5%;
   }
   .container-pc .card-container {
     width: 100%;
@@ -1248,8 +1248,7 @@ footer a:visited {
     grid-template-columns: 111px 165px;
     height: auto;
     gap: 33px;
-    padding-left: 45px;
-    margin: 0;
+    margin-left: 5%;
   }
   .container-pv .container-pv-img {
     display: flex;
@@ -1336,8 +1335,7 @@ footer a:visited {
     grid-template-columns: 111px 165px;
     height: auto;
     gap: 33px;
-    padding-left: 45px;
-    margin: 0;
+    margin-left: 5%;
   }
   .container-img-hw {
     display: flex;
