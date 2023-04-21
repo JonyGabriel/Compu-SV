@@ -1162,7 +1162,8 @@ footer a:visited {
   }
   .container-pc {
     display: grid;
-    grid-template-columns: 125px 147px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     width: 100%;
     gap: 33px;
     margin-left: 5%;
@@ -1245,10 +1246,10 @@ footer a:visited {
   }
   .container-pv {
     display: grid;
-    grid-template-columns: 111px 165px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     height: auto;
     gap: 33px;
-    margin-left: 5%;
   }
   .container-pv .container-pv-img {
     display: flex;
@@ -1332,10 +1333,10 @@ footer a:visited {
   }
   .container-hw {
     display: grid;
-    grid-template-columns: 111px 165px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     height: auto;
     gap: 33px;
-    margin-left: 5%;
   }
   .container-img-hw {
     display: flex;

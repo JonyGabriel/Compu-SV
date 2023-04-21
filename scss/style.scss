@@ -736,7 +736,8 @@ footer {
     }
     .container-pc {
       display: grid;
-      grid-template-columns: 125px 147px;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
       width: 100%;
       gap: 33px;
       margin-left: 5%;
@@ -822,10 +823,10 @@ footer {
       }
         .container-pv {
           display: grid;
-          grid-template-columns: 111px 165px;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
           height: auto;
           gap: 33px;
-          margin-left: 5%;
           & &-img {
             display: flex;
             flex-wrap: wrap;
@@ -912,10 +913,10 @@ footer {
         }
       .container-hw {
         display: grid;
-        grid-template-columns: 111px 165px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         height: auto;
         gap: 33px;
-        margin-left: 5%;
       }
       .container-img-hw {
         display: flex;
