@@ -1166,6 +1166,10 @@ footer a:visited {
     grid-template-rows: repeat(2, 1fr);
     width: 100%;
     gap: 33px;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+    margin-left: 8%;
   }
   .container-pc .card-container {
     width: 100%;
@@ -1248,7 +1252,7 @@ footer a:visited {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: auto;
-    gap: 33px;
+    gap: 50px;
   }
   .container-pv .container-pv-img {
     display: flex;
@@ -1336,6 +1340,9 @@ footer a:visited {
     grid-template-rows: repeat(2, 1fr);
     height: auto;
     gap: 33px;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
   }
   .container-img-hw {
     display: flex;
