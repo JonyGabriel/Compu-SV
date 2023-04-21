@@ -71,12 +71,12 @@ footer {
       border-image: linear-gradient(to top, rgb(15, 32, 32) 30%,rgb(92, 138, 135) 50% );
       border-image-slice: 1;
       border-radius: 5px;
-      box-shadow: 5px 0 20px rgb(146, 248, 248);
+      box-shadow: 1px 0 20px rgb(146, 248, 248);
       transition: all 0.4s ease;
     }
     .img-card-pv:hover {
       transform: translateY(-5px);
-      box-shadow: 5px 0 20px rgb(255, 255, 255);
+      box-shadow: 1px 0 20px rgb(255, 255, 255);
         
     }
   }
